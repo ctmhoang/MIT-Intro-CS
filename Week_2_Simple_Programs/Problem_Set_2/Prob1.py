@@ -47,4 +47,4 @@ def maxub(bl, annualIr, monthlyPr, m):
     else:
          return maxub(rm, annualIr, monthlyPr, m - 1)
 print("Remaining: ",maxub(balance,annualInterestRate,monthlyPaymentRate,12))
-# print("Remaining: ",maxub(42,0.2,0.04,12))
+# print("Remaining: ",round(maxub(42,0.2,0.04,12)))
