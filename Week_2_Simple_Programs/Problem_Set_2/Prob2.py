@@ -33,15 +33,19 @@ Created on Sun Jun  30 09:22:14 2019
 
 @author: artlist
 """
-# Calculate the credit card balance after one year
-#if a person only pays the minimum monthly payment required
-# by the credit card company each month.
-def maxub(bl, annualIr, monthlyPr, m):
-    monthlyIr = annualIr /12
-    monthlyUb = bl -(bl*monthlyPr)
-    rm = monthlyUb + (monthlyUb * monthlyIr)
-    if m == 1:
-        return rm
+
+monthlyPaymentRate = 0
+init_balance= 3329
+balance = init_balance
+annualInterestRate = 0.2
+monthlyInterestRate = annualInterestRate/12
+
+while balance > 0:
+    for i in range(12):
+        balance = balance - monthlyPaymentRate + ((balance - monthlyPaymentRate) * monthlyInterestRate)
+    if balance > 0:
+        monthlyPaymentRate += 10
+        balance = init_balance
     else:
-         return maxub(rm, annualIr, monthlyPr, m - 1)
-print(maxub(42,0.2,0.04,12))
+        break
+print('Lowest Payment:', monthlyPaymentRate)
