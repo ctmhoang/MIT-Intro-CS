@@ -35,5 +35,5 @@ for start in range(len(s) -1):
 print(substr)
 
 #This sol have a heavily complexity
-#Can change to compare values in string or get strIndex and EndIndex (loop 1 time)
+#Can change it by comparing values in string or getting strIndex and EndIndex (loop 1 time)
 #Will reduce complexity
