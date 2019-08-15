@@ -33,3 +33,7 @@ for start in range(len(s) -1):
         if alph_str == temp and len(substr) < len(temp):
             substr = temp
 print(substr)
+
+#This sol have a heavily complexity
+#Can change to compare values in string or get strIndex and EndIndex (loop 1 time)
+#Will reduce complexity
