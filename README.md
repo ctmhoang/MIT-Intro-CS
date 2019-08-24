@@ -10,4 +10,4 @@ This course is the first of a two-course sequence: Introduction to Computer Scie
 
 Since these courses may be the only formal computer science courses many of the students take, we have chosen to focus on breadth rather than depth. The goal is to provide students with a brief introduction to many topics so they will have an idea of what is possible when they need to think about how to use computation to accomplish some goal later in their career. That said, they are not "computation appreciation" courses. They are challenging and rigorous courses in which the students spend a lot of time and effort learning to bend the computer to their will.
 
-* **DISCLAIMER** All the answers in this repo is my own solution. You should look at them when you completely got stuck, otherwise DIY. ;)
+* **DISCLAIMER** All the answers in this repo is my own solution. You should look at them when you completely got stuck, otherwise DIY.
