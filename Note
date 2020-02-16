@@ -1,0 +1,66 @@
+storeAnnotation
+Obfuscate
+revese = True
+sorted()
+"".join
+end=""
+"%.2f" %
+ord
+char
+impoert
+
+from import
+\n
+.upper
+is
+capitalize
+swapcase
+index
+find
+count
+replace
+swap tuples
+.append
+.extent
+del()
+lamdba
+filter
+map
+.pop
+.remove
+list()
+.split
+REMEMBER!
+-add
+remove
+convert
+order
+======
+.readline()
+assert
+as # Take the value and the error value boud it to xx and after it del
+for St in # mutate the value in list  to the value in another list
+try except else finally raise
+.get#dict
+kexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY KDE_SESSION_VERSION=5 KDE_FULL_SESSION=true dolphin
+operator mul add
+accumulate - itertools//
+reduce - functools
+counter-collections
+random.choice.random.randrange(). randint
+.format
+yeild  __next__()
+\'d
+any 
+all
+zip 2 list to  1 dict
+str().zfill()
+datetime.date.today
+datetime.date
+time.ctime
+time.time
+time.asctime
+default value
+extent
+rindex apply only for str
+take value for func 
